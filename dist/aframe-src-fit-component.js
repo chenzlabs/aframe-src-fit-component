@@ -106,6 +106,8 @@
 	            // FIXME: need a more sane way to cascade changes through components
 	            var bmfonttext = this.el.components['bmfont-text'];
 	            if (bmfonttext) { bmfonttext.updateLayout(bmfonttext.data); }
+	            var text = this.el.components.text;
+	            if (text) { text.updateLayout(text.data); }
 	        }
 	        // TODO: cascade to children
 	    }
