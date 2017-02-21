@@ -1,6 +1,6 @@
 {
   "name": "aframe-src-fit-component",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "src-fit texture-fitting component for A-Frame.",
   "main": "index.js",
   "scripts": {
@@ -38,7 +38,7 @@
   },
   "homepage": "https://github.com/chenzlabs/aframe-src-fit-component#readme",
   "devDependencies": {
-    "aframe": "chenzlabs/aframe#da557a2",
+    "aframe": "^v0.5.0",
     "browserify": "^13.0.0",
     "browserify-css": "^0.9.1",
     "budo": "^8.2.2",
